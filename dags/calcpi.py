@@ -18,7 +18,7 @@
 
 """Example DAG demonstrating how to apply a Kubernetes Resource from Airflow running in-cluster"""
 import sys
-sys.path.append("/stackable/app/git/current")
+sys.path.append("/stackable/app/git/current/dags")
 from datetime import datetime, timedelta
 from airflow import DAG
 from stackable.spark_operator import SparkKubernetesOperator
